@@ -1,0 +1,94 @@
+.heading {
+    background-color:grey;
+}
+
+body{
+
+}
+
+.photos{
+    flex-grow:1;
+    width: 10em;
+    height:1em;
+    margin: 10px;
+    padding:10px;
+    gap: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sub-categories{
+    display:inline-flex;
+    font-size: 1em;
+    padding: 1em;
+}
+.top{
+    text-align: center;
+}
+
+.filmgrablogo {
+    border: none;
+    color: white;
+    cursor:pointer;
+    background-color: grey;
+}
+
+.artistoptions-style{
+    display: block;
+}
+.dropbtn{
+    padding: 10px 20px;
+    background-color: gray;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+
+.artistoptions {
+    display:none;
+    background-color: gray;
+    z-index: 1;
+}
+
+.artistbrowse:hover .artistoptions {
+    display:block;
+}
+
+.categorybrowse:hover .categoryoptions{
+    display: block;
+}
+
+.categorybtn{
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor:pointer;
+}
+
+.categoryoptions {
+    display:none;
+    text-align: center;
+    background-color: gray;
+    z-index:1;
+}
+.filmsbrowse:hover .film-options{
+    display: block;
+}
+
+.filmsbtn{
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor:pointer;
+}
+
+.film-options {
+    display:none;
+    text-align: center;
+    background-color: gray;
+    z-index:1;
+}
