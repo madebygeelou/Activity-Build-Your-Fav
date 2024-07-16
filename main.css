@@ -40,6 +40,10 @@ column-gap: 50px;
 row-gap: 50px;
 }
 
+img:hover{
+    transform: scale(1.2);
+}
+
 img {
     flex-grow:1;
     width: 20em;
