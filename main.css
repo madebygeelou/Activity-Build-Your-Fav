@@ -1,4 +1,5 @@
 *{
+    color:#7c654e;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -9,8 +10,11 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    background-color:grey;
 }
+
+header{  
+     background-color:#ccded3;}
+
 
 @media (max-width:800px){
     .heading{
@@ -42,6 +46,8 @@ row-gap: 50px;
 
 img:hover{
     transform: scale(1.2);
+    
+    
 }
 
 img {
@@ -50,6 +56,7 @@ img {
     height:20em;
     padding: 5px;
     border-radius: 25px;
+    transition: 0.5s;
 }
 
 
@@ -60,7 +67,7 @@ img {
     margin-top: 1em;
 }
 .top{
-    background-color: gray;
+    background-color:#ccded3;;
     padding:1em;
     text-align: center;
 }
@@ -68,24 +75,24 @@ img {
 .filmgrablogo {
     font-size: larger;
     border: none;
-    color: white;
+    color:#7c654e;
     cursor:pointer;
-    background-color: grey;
+    background-color:#ccded3;
 }
 
 .artistoptions-style{
     display: block;
 }
 .dropbtn{
-    background-color: gray;
-    color:white;
+    background-color:#ccded3;
+    color:#7c654e;
     border: none;
     cursor: pointer;
 }
 
 .artistoptions {
     display:none;
-    background-color: gray;
+    background-color:#ccded3;
     z-index: 1;
 }
 
@@ -98,8 +105,8 @@ img {
 }
 
 .categorybtn{
-    background-color: grey;
-    color: white;
+    background-color:#ccded3;
+    color: #7c654e;
     border: none;
     cursor:pointer;
 }
@@ -107,7 +114,7 @@ img {
 .categoryoptions {
     display:none;
     text-align: center;
-    background-color: gray;
+    background-color:#ccded3;
     z-index:1;
 }
 .filmsbrowse:hover .film-options{
@@ -115,8 +122,8 @@ img {
 }
 
 .filmsbtn{
-    background-color: grey;
-    color: white;
+    background-color:#ccded3;
+    color:#7c654e;
     border: none;
     cursor:pointer;
 }
@@ -124,36 +131,36 @@ img {
 .film-options {
     display:none;
     text-align: center;
-    background-color: gray;
+    background-color:#ccded3;
     z-index:1;
 }
 
 .randompost-btn {
     border: none;
-    color:white;
-    background-color: gray;
+    color:#7c654e;
+    background-color:#ccded3;
 }
 
 .mission-btn {
     border: none;
-    color: white;
-    background-color: gray;
+    color: #7c654e;
+    background-color:#ccded3;
 }
 
 .paetron-btn {
     border:none;
-    color: white;
-    background-color: gray;
+    color: #7c654e;
+    background-color:#ccded3;
 }
 
 .contact-btn { 
     border: none;
-    color: white;
-    background-color: gray;
+    color: #7c654e;
+    background-color:#ccded3;
 }
 
 .creative-btn{
     border: none;
-    color: white;
-    background-color: gray;
+    color: #7c654e;
+    background-color:#ccded3;
 }
